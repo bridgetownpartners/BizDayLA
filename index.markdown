@@ -16,5 +16,6 @@ USA
 <p>
 Twitter: <a href="https://twitter.com/bizdayla">@BizDayLA</a><br/>
 Instagram: <a href="https://instagram.com/bizdayla">@BizDayLA</a>
+Facebook: <a href="https://facebook.com/bizdayla">@BizDayLA</a><br/>
 </p>
 </center>
