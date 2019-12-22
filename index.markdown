@@ -20,9 +20,9 @@ Facebook: <a href="https://facebook.com/bizdayla">@BizDayLA</a><br/>
 </p>
 <p>
 <b>Special Offer from <a href="http://themetaphorclub.com">The Metaphor Club</a></b><br/>
-Contact The Metaphor Club for a tour of their outstanding<br/>
-co-working space, and use the <a href="https://themetaphorclub.gymmasteronline.com/portal/signup/details/1240fa1ba05770b8efb75fb02a22a618">BizDay.LA Discount Link</a><br/>
-for a <i>10% discount on your membership fee</i>.
+Contact The Metaphor Club for a tour of<br/>
+their outstanding co-working space, and use the<br/>
+<a href="https://themetaphorclub.gymmasteronline.com/portal/signup/details/1240fa1ba05770b8efb75fb02a22a618">BizDay.LA Discount Link</a><br/>for a <i>10% discount on your membership fee</i>.
 </p>
 &nbsp;<br/>
 &nbsp;<br/>
