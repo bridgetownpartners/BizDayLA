@@ -13,7 +13,9 @@ Thursday, January 23, 2020<br/>&nbsp;<br/>
 Los Angeles, California<br/>
 USA
 </p>
-
+<p>
+<h2><a href="https://www.eventbrite.com/e/bizdayla-tickets-85448796651">[ Register Now ]</a></h2>
+</p>
 <p>
 Twitter: <a href="https://twitter.com/bizdayla">@BizDayLA</a><br/>
 Instagram: <a href="https://instagram.com/bizdayla">@BizDayLA</a><br/>
