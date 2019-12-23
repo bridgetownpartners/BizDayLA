@@ -2,7 +2,8 @@
 layout: default
 ---
 <center>
-<h1>BizDay.LA</h1>
+<h2>&nbsp;<h2>
+<img src="/images/BizDayLA.png" width="400">
 
 <h2>An exciting event for current and<br/> aspiring business owners.</h2>
 
