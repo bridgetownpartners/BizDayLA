@@ -2,11 +2,10 @@
 layout: default
 ---
 <center>
-<h2>&nbsp;<h2>
+<h2>&nbsp;</h2>
 <img src="/images/BizDayLA.png" width="400">
 
 <h2>An exciting event for current and<br/> aspiring business owners.</h2>
-
 <p>
 Thursday, January 23, 2020<br/>&nbsp;<br/>
 9:00am - 5:00pm: Cyberspace<br/>
@@ -14,11 +13,13 @@ Thursday, January 23, 2020<br/>&nbsp;<br/>
 Los Angeles, California<br/>
 USA
 </p>
+
 <p>
 Twitter: <a href="https://twitter.com/bizdayla">@BizDayLA</a><br/>
 Instagram: <a href="https://instagram.com/bizdayla">@BizDayLA</a><br/>
 Facebook: <a href="https://facebook.com/bizdayla">@BizDayLA</a><br/>
 </p>
+
 <p>
 <b>Special Offer from <a href="http://themetaphorclub.com">The Metaphor Club</a></b><br/>
 Contact The Metaphor Club for a tour of<br/>
@@ -30,4 +31,5 @@ their outstanding co-working space, and use the<br/>
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;<br/>
+
 </center>
