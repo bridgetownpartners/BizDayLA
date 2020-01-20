@@ -100,9 +100,56 @@ window.context = {
         url_speakers: 'speakers.html',
         speakers: [
             {
+                id: 'speaker_sw_ck',
+                firstName: 'Chef',
+                lastName: 'Kyndra',
+                title: 'Swift Cafe | Owner',
+                company: {
+                    has_site: true,
+                    description: '',
+                    name: 'Swift Cafe',
+                    site: 'https://swift-la.com/',
+                },
+                personalDescription: [
+                    'Chef Kyndra McCrary cultivated a deep love for cooking via her grandmother. A graduate of Le Cordon Bleu (Hollywood), her unique heritage of African, Irish, Panamanian, Jamaican & Native American has created a refined palate developed from a wide variety of ingredients and global travel.',
+                    'Chef Kyndra has cooked for Hollywood favorites such as Bill Handel, Halle Berry, Larenz Tate, Kendrick Lamar, YG, Tank & Sela Ward, as well as top execs from Oaktree Capital, Microsoft, Bing, Riveting Entertainment & PWC. As a resident of South Los Angeles, Kyndra strives to pour into her community by hiring local staff and working pro bono for community events. Her mission is to unite and educate people by exposing her clients to various cultures through the medium of food.'
+                ],
+                talkDescription: [],
+                image: 'assets/bizdayla/img/cropped_swift_chef_kyndra.png',
+                name_linkedin: '',
+                name_twitter: '',
+                name_instagram: '',
+                name_facebook: '',
+                url_github: {
+                    has: false,
+                    site: '',
+                },
+                url_facebook: {
+                    has: false,
+                    site: '',
+                },
+                url_instagram: {
+                    has: false,
+                    site: '',
+                },
+                url_linkedin: {
+                    has: false,
+                    site: 'https://www.linkedin.com/in/',
+                },
+                url_twitter: {
+                    has: false,
+                    site: 'https://twitter.com/',
+                },
+                website: {
+                    has: false,
+                    site: ''
+                }
+            },
+            {
                 id: 'speaker_vazell_vh',
                 firstName: 'Varell',
                 lastName: 'Hawkins',
+                title: 'Vazell LLC | Founder and CEO',
                 company: {
                     has_site: true,
                     description: '',
@@ -112,7 +159,6 @@ window.context = {
                 personalDescription: [
                     'Varell is an Entreprenuer and Software Engineer with ten (10) years of experience across the telecom, insurance, and ecommerce industries.  He\'s currently running Vazell LLC, a web development agency that provides tailored web experiences allowing businesses better visibility online and easing their processess to better service their customers.',
                 ],
-                shortDescription: 'Vazell LLC | CEO',
                 talkDescription: [
 
                 ],
@@ -149,6 +195,7 @@ window.context = {
                 id: 'speaker_dawn_dc',
                 firstName: 'Dawn',
                 lastName: 'Comer',
+                title: 'Business Strategist',
                 company: {
                     has_site: false,
                     description: '',
@@ -156,10 +203,8 @@ window.context = {
                     site: '',
                 },
                 personalDescription: [
-                    'DAWN M. COMER enjoys working at the intersection of technology, data and civic engagement.  Dawn has over 20 years experience across PricewaterhouseCoopers and IBM Global Business Services as a management consultant working with Fortune 500 consumer products, technology and media and entertainment companies.  During her FUSE Corps Executive Fellowship with the City of Los Angeles’ Information Technology Agency (ITA), Dawn’s experience expanded to the Public Sector.  As a Fellow, she collaborated across City departments to develop a smart city strategic roadmap to improve City services using technology and data, with a strong focus on equity and user experience design.  She has continued in the Public Sector, working for the Mayor’s Fund for Los Angeles to localize the U.N. Sustainable Development Goals (SDGs) and develop and implement an open data platform to track the City’s progress towards the goals.  She is excited to continue with the City in her most recent role as Broadband and Digital Inclusion Coordinator.',
-                    'Dawn earned a BS in Electrical Engineering from North Carolina Agricultural & Technical State University (NCAT) and an MBA from the University of Southern California Marshall School of Business.  Her additional interests include supporting the Performing Arts and traveling the world.'
+                    'With 20 years of consulting experience with Fortune 500 companies, Dawn recently brought her love for tech and her digital transformation skills to the public sector.  She’s been working for the City of L.A. on Smart Cities, Sustainable Development Goals and Digital Inclusion.  Tech has significantly changed how city services are provided, and  how we access education, jobs and healthcare.  Ensuring equitable access to tech-enabled services for underserved communities is a key component of her work.',
                 ],
-                shortDescription: '',
                 talkDescription: [
 
                 ],
@@ -244,6 +289,7 @@ window.context = {
                 id: 'speaker_popup_cleanup_kl',
                 firstName: 'Kenetia',
                 lastName: 'Lee',
+                title: 'PopUP CleanUP | Founder and CEO',
                 company: {
                     has_site: true,
                     description: '',
@@ -253,7 +299,6 @@ window.context = {
                 personalDescription: [
                     'Kenetia Lee is Founder and CEO  of PopUP CleanUP, started in 2016 a hip niche commercial cleaning company offering best-in-cleaning crews to maintain cleanliness at the hottest events, festivals, races, and concerts, in Greater Los Angeles. PopUP CleanUP offers pre-event production set-up/cleaning, cleaning during events, and post-event cleaning in any indoor or outdoor event space. Our roster of events include the 2017 Los Angeles NBA All-Star Games, 2018 ComplexCon in Long Beach, 2019 Blast Pro Series and Los Angeles Marathon, working with clients like Nike, Adidas, Facebook, PopSugar and Lululemon to name a few. Visit us at  https://www.popupcleanup.com/ for all of your event-cleaning needs.',
                 ],
-                shortDescription: 'PopUP CleanUP | Founder and CEO',
                 talkDescription: [
 
                 ],
@@ -287,6 +332,7 @@ window.context = {
                 id: 'speaker_tutord_bb',
                 firstName: 'Brandon',
                 lastName: 'Bailey',
+                title: "TutorD and TutorD Scholars | Founder and CEO",
                 company: {
                     has_site: true,
                     description: '',
@@ -296,7 +342,6 @@ window.context = {
                 personalDescription: [
                     "Brandon Bailey is a Software Engineer, and the Founder and CEO of TutorD and TutorD Scholars. TutorD an educational platform geared towards enhancing the learning experience, and TutorD Scholars a nonprofit organization exposing youth to hands-on experience within the tech space.  With over 10 years in tech, and last position as Senior Data Infrastructure Engineer at GoGuardian; an EdTech startup, in Los Angeles Brandon is now meshing his passion for apprenticeship and mentorship with his infinitive knowledge of the technology industry to run TutorD and TutorD Scholars."
                 ],
-                shortDescription: "Founder and CEO of TutorD and TutorD Scholars",
                 talkDescription: [
                 ],
                 image: 'assets/bizdayla/img/cropped_tutord_brandon_bailey.png',
@@ -329,6 +374,7 @@ window.context = {
                 id: 'speaker_medley_as',
                 firstName: 'Ashley',
                 lastName: 'Small',
+                title: 'Medley Inc. | Founder and CEO',
                 company: {
                     has_site: true,
                     description: '',
@@ -468,6 +514,7 @@ window.context = {
                 id: 'speaker_bp_rh',
                 firstName: 'Ray',
                 lastName: 'Hightower',
+                title: 'Bridgetown Partners | Founder and CEO',
                 company: {
                     has_site: true,
                     description: '',
@@ -519,19 +566,14 @@ window.context = {
             url: 'https://www.affluentsolution.com/'
         },
         {
-            image: 'assets/bizdayla/img/medley_logo.svg',
-            name: 'Medley',
-            url: 'https://www.medley-inc.com'
-        },
-        {
-            image: 'assets/bizdayla/img/vazell_logo.svg',
-            name: 'Vazell',
-            url: 'https://www.vazell.com'
-        },
-        {
             image: 'assets/bizdayla/img/bridgetown_partners_logo.svg',
             name: 'Bridgetown Partners',
             url: 'https://bridgetownpartners.com/'
+        },
+        {
+            image: 'assets/bizdayla/img/medley_logo.svg',
+            name: 'Medley',
+            url: 'https://www.medley-inc.com'
         },
         {
             image: 'assets/bizdayla/img/popup_cleanup_logo.svg',
@@ -540,10 +582,20 @@ window.context = {
             heightAdjust: 'bizday_sponsors_icon--height_adjust'
         },
         {
+            image: 'assets/bizdayla/img/swift_logo.svg',
+            name: 'Swift Cafe',
+            url: 'https://www.swift-la.com'
+        },
+        {
             image: 'assets/bizdayla/img/tutord_logo.png',
             name: 'TutorD',
             url: 'https://scholars.tutord.io/',
             heightAdjust: 'bizday_sponsors_icon--height_adjust'
+        },
+        {
+            image: 'assets/bizdayla/img/vazell_logo.svg',
+            name: 'Vazell',
+            url: 'https://www.vazell.com'
         }
     ],
     sponsors_venue: [
