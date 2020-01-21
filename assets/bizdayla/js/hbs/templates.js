@@ -51,6 +51,7 @@ Handlebars.registerPartial("code_of_conduct", Handlebars.template({"1":function(
 
   return ((stack1 = helpers["with"].call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.codeOfConduct : depth0),{"name":"with","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":30,"column":9}}})) != null ? stack1 : "");
 },"usePartial":true,"useData":true}));
+Handlebars.registerHelper("scriptLoaderFromArray", arr => { let body = document.body; arr.forEach(url => { const script = document.createElement("script"); script.src = url; script.type="text/javascript"; body.append(script); }) });
 this["Bizdayla"]["templates"]["CodeOfConduct"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
