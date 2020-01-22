@@ -107,8 +107,9 @@ window.context = {
                 id: 'speaker_sw_ck',
                 firstName: 'Chef',
                 lastName: 'Kyndra',
-                title: 'Swift Cafe | Owner',
+                title: 'Owner',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
                     name: 'Swift Cafe',
@@ -120,10 +121,6 @@ window.context = {
                 ],
                 talkDescription: [],
                 image: 'assets/bizdayla/img/cropped_swift_chef_kyndra.png',
-                name_linkedin: '',
-                name_twitter: '',
-                name_instagram: '',
-                name_facebook: '',
                 url_github: {
                     has: false,
                     site: '',
@@ -153,8 +150,9 @@ window.context = {
                 id: 'speaker_vazell_vh',
                 firstName: 'Varell',
                 lastName: 'Hawkins',
-                title: 'Vazell LLC | Founder and CEO',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
                     name: 'Vazell',
@@ -167,9 +165,6 @@ window.context = {
 
                 ],
                 image: 'assets/bizdayla/img/cropped_vazell_varell_hawkins.png',
-                name_github: 'participator',
-                name_linkedin: 'vjhawkins',
-                name_twitter: 'vjhawkins1',
                 url_github: {
                     has: true,
                     site: 'https://www.github.com/participator',
@@ -202,8 +197,9 @@ window.context = {
                 title: 'Business Strategist',
                 company: {
                     has_site: false,
+                    has_company: false,
                     description: '',
-                    name: 'Business Strategist',
+                    name: '',
                     site: '',
                 },
                 personalDescription: [
@@ -242,8 +238,9 @@ window.context = {
                 id: 'speaker_as_jl',
                 firstName: 'Joseph',
                 lastName: 'Luckett',
-                title: '',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: 'Affluent Solution is an all in one software that provides businesses with marketing and advertising tools needed to thrive in a culture influenced by agile technological advancements. We give SMB’s the tools to plan and manage innovative digital marketing development strategies to deliver engaging new material, drive quality leads, and increase social engagement with a targeted demographic. We maximize key analytics to build organic promotional content pertinent to clients’ brands, and grow in the cloud.',
                     name: 'Affluent Solution',
@@ -257,10 +254,6 @@ window.context = {
                     "With Reputation Management, you can keep on top of online activity affecting the reputation of a business, including reviews, listings, and social media, helping you make expert recommendations, and provide proof-of-performance."
                 ],
                 image: 'assets/bizdayla/img/cropped_as_joseph_luckett.png',
-                name_linkedin: '',
-                name_twitter: '',
-                name_instagram: '',
-                name_facebook: '',
                 url_github: {
                     has: false,
                     site: 'https://www.github.com/',
@@ -294,8 +287,9 @@ window.context = {
                 id: 'speaker_popup_cleanup_kl',
                 firstName: 'Kenetia',
                 lastName: 'Lee',
-                title: 'PopUP CleanUP | Founder and CEO',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
                     name: 'PopUP CleanUP',
@@ -337,11 +331,12 @@ window.context = {
                 id: 'speaker_tutord_bb',
                 firstName: 'Brandon',
                 lastName: 'Bailey',
-                title: "TutorD and TutorD Scholars | Founder and CEO",
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
-                    name: 'TutorD',
+                    name: 'TutorD and TutorD Scholars',
                     site: 'https://scholars.tutord.io/',
                 },
                 personalDescription: [
@@ -379,8 +374,9 @@ window.context = {
                 id: 'speaker_medley_as',
                 firstName: 'Ashley',
                 lastName: 'Small',
-                title: 'Medley Inc. | Founder and CEO',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
                     name: 'Medley Inc.',
@@ -422,7 +418,9 @@ window.context = {
                 id: 'speaker_dreamfree_me',
                 firstName: 'Michael',
                 lastName: 'Evans',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: false,
                     description: '',
                     name: 'Dreamfree',
@@ -435,10 +433,6 @@ window.context = {
 
                 ],
                 image: 'assets/bizdayla/img/cropped_dreamfree_michael_evans_.png',
-                name_linkedin: '',
-                name_twitter: '',
-                name_instagram: '',
-                name_facebook: '',
                 url_github: {
                     has: false,
                     site: 'https://www.github.com/',
@@ -469,10 +463,12 @@ window.context = {
                 }
             },
             {
-                id: 'speaker_3b-design-co_gd',
+                id: 'speaker_3b-design-co_gp',
                 firstName: 'Gette',
                 lastName: 'Demi',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
                     name: '3B Design Co.',
@@ -519,8 +515,9 @@ window.context = {
                 id: 'speaker_bp_rh',
                 firstName: 'Ray',
                 lastName: 'Hightower',
-                title: 'Bridgetown Partners | Founder and CEO',
+                title: 'Founder and CEO',
                 company: {
+                    has_company: true,
                     has_site: true,
                     description: '',
                     name: 'Bridgetown Partners',
@@ -533,10 +530,6 @@ window.context = {
                     'Nine out of ten startups fail in the first year. Why? More important, what can we do to improve the odds? For answers, we might explore "The Four Steps to the Epiphany", a classic book of entrepreneurship and the original source of the term minimum viable product (MVP). This presentation will describe actions that leaders can take right now to raise the odds of startup success, including how and why to build an MVP.'
                 ],
                 image: 'assets/bizdayla/img/cropped_bridgetown_ray_hightower.png',
-                name_linkedin: '',
-                name_twitter: '',
-                name_instagram: '',
-                name_facebook: '',
                 url_github: {
                     has: true,
                     site: 'https://github.com/rayhightower',
