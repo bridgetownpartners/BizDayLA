@@ -62,6 +62,49 @@ this["Bizdayla"]["templates"]["CodeOfConduct"] = Handlebars.template({"compiler"
     + ((stack1 = container.invokePartial(lookupProperty(partials,"arrow_up"),depth0,{"name":"arrow_up","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + container.escapeExpression((lookupProperty(helpers,"scriptLoaderFromArray")||(depth0 && lookupProperty(depth0,"scriptLoaderFromArray"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"helper") : depth0)) != null ? lookupProperty(stack1,"scriptLoaderFromArray") : stack1)) != null ? lookupProperty(stack1,"arr") : stack1),{"name":"scriptLoaderFromArray","hash":{},"data":data,"loc":{"start":{"line":6,"column":0},"end":{"line":6,"column":58}}}));
 },"usePartial":true,"useData":true});
+this["Bizdayla"]["templates"]["NotFound"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = container.invokePartial(lookupProperty(partials,"loader"),depth0,{"name":"loader","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"banner"),depth0,{"name":"banner","hash":{"section_class":"bizday_banner_not_found"},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"not_found"),depth0,{"name":"not_found","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "");
+},"usePartial":true,"useData":true});
+this["Bizdayla"]["templates"]["Speaker"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = container.invokePartial(lookupProperty(partials,"loader"),depth0,{"name":"loader","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"header"),depth0,{"name":"header","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"banner"),depth0,{"name":"banner","hash":{"section_class":"bizday_banner"},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"speaker"),depth0,{"name":"speaker","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"footer"),depth0,{"name":"footer","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"arrow_up"),depth0,{"name":"arrow_up","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + container.escapeExpression((lookupProperty(helpers,"scriptLoaderFromArray")||(depth0 && lookupProperty(depth0,"scriptLoaderFromArray"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"helper") : depth0)) != null ? lookupProperty(stack1,"scriptLoaderFromArray") : stack1)) != null ? lookupProperty(stack1,"arr") : stack1),{"name":"scriptLoaderFromArray","hash":{},"data":data,"loc":{"start":{"line":7,"column":0},"end":{"line":7,"column":58}}}));
+},"usePartial":true,"useData":true});
+this["Bizdayla"]["templates"]["Videos"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = container.invokePartial(lookupProperty(partials,"loader"),depth0,{"name":"loader","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"header"),depth0,{"name":"header","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"video_player"),depth0,{"name":"video_player","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"footer"),depth0,{"name":"footer","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"arrow_up"),depth0,{"name":"arrow_up","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + container.escapeExpression((lookupProperty(helpers,"scriptLoaderFromArray")||(depth0 && lookupProperty(depth0,"scriptLoaderFromArray"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"helper") : depth0)) != null ? lookupProperty(stack1,"scriptLoaderFromArray") : stack1)) != null ? lookupProperty(stack1,"arr") : stack1),{"name":"scriptLoaderFromArray","hash":{},"data":data,"loc":{"start":{"line":6,"column":0},"end":{"line":6,"column":58}}}));
+},"usePartial":true,"useData":true});
 Handlebars.registerPartial("code_of_conduct", Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.escapeExpression, alias3=container.lambda, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -99,18 +142,6 @@ Handlebars.registerPartial("code_of_conduct", Handlebars.template({"1":function(
 
   return ((stack1 = lookupProperty(helpers,"with").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"codeOfConduct") : depth0),{"name":"with","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":30,"column":9}}})) != null ? stack1 : "");
 },"usePartial":true,"useData":true}));
-this["Bizdayla"]["templates"]["NotFound"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-          return parent[propertyName];
-        }
-        return undefined
-    };
-
-  return ((stack1 = container.invokePartial(lookupProperty(partials,"loader"),depth0,{"name":"loader","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"banner"),depth0,{"name":"banner","hash":{"section_class":"bizday_banner_not_found"},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"not_found"),depth0,{"name":"not_found","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "");
-},"usePartial":true,"useData":true});
 Handlebars.registerPartial("description", Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -149,22 +180,6 @@ Handlebars.registerPartial("description", Handlebars.template({"1":function(cont
 
   return ((stack1 = lookupProperty(helpers,"with").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"description") : depth0),{"name":"with","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":17,"column":9}}})) != null ? stack1 : "");
 },"useData":true}));
-this["Bizdayla"]["templates"]["Speaker"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-          return parent[propertyName];
-        }
-        return undefined
-    };
-
-  return ((stack1 = container.invokePartial(lookupProperty(partials,"loader"),depth0,{"name":"loader","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"header"),depth0,{"name":"header","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"banner"),depth0,{"name":"banner","hash":{"section_class":"bizday_banner"},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"speaker"),depth0,{"name":"speaker","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"footer"),depth0,{"name":"footer","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"arrow_up"),depth0,{"name":"arrow_up","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + container.escapeExpression((lookupProperty(helpers,"scriptLoaderFromArray")||(depth0 && lookupProperty(depth0,"scriptLoaderFromArray"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"helper") : depth0)) != null ? lookupProperty(stack1,"scriptLoaderFromArray") : stack1)) != null ? lookupProperty(stack1,"arr") : stack1),{"name":"scriptLoaderFromArray","hash":{},"data":data,"loc":{"start":{"line":7,"column":0},"end":{"line":7,"column":58}}}));
-},"usePartial":true,"useData":true});
 Handlebars.registerPartial("divider", Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -177,21 +192,6 @@ Handlebars.registerPartial("divider", Handlebars.template({"compiler":[8,">= 4.3
     + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"hr_style") || (depth0 != null ? lookupProperty(depth0,"hr_style") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"hr_style","hash":{},"data":data,"loc":{"start":{"line":1,"column":10},"end":{"line":1,"column":22}}}) : helper)))
     + ">";
 },"useData":true}));
-this["Bizdayla"]["templates"]["Videos"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-          return parent[propertyName];
-        }
-        return undefined
-    };
-
-  return ((stack1 = container.invokePartial(lookupProperty(partials,"loader"),depth0,{"name":"loader","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"header"),depth0,{"name":"header","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"video_player"),depth0,{"name":"video_player","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"footer"),depth0,{"name":"footer","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"arrow_up"),depth0,{"name":"arrow_up","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + container.escapeExpression((lookupProperty(helpers,"scriptLoaderFromArray")||(depth0 && lookupProperty(depth0,"scriptLoaderFromArray"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"helper") : depth0)) != null ? lookupProperty(stack1,"scriptLoaderFromArray") : stack1)) != null ? lookupProperty(stack1,"arr") : stack1),{"name":"scriptLoaderFromArray","hash":{},"data":data,"loc":{"start":{"line":6,"column":0},"end":{"line":6,"column":58}}}));
-},"usePartial":true,"useData":true});
 Handlebars.registerPartial("footer", Handlebars.template({"1":function(container,depth0,helpers,partials,data,blockParams,depths) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, alias5=container.lambda, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -849,8 +849,8 @@ Handlebars.registerPartial("video_player", Handlebars.template({"1":function(con
     + alias4(((helper = (helper = lookupProperty(helpers,"header") || (depth0 != null ? lookupProperty(depth0,"header") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"header","hash":{},"data":data,"loc":{"start":{"line":3,"column":41},"end":{"line":3,"column":51}}}) : helper)))
     + "</h1>\r\n    <div class=\"bizday_videos_player\">\r\n        <iframe class=\"bizday_videos_player_viewer\" name=\"video_player_viewer\" width=\"560\" height=\"315\" src=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"url_initial_video") || (depth0 != null ? lookupProperty(depth0,"url_initial_video") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url_initial_video","hash":{},"data":data,"loc":{"start":{"line":5,"column":109},"end":{"line":5,"column":130}}}) : helper)))
-    + "\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n    </div>\r\n    <h2 class=\"bizday_videos_secondary_title\">Select a Video</h2>\r\n    <div class=\"bizday_videos_items\">\r\n"
-    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"videos") : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":17,"column":17}}})) != null ? stack1 : "")
+    + "\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n        <div class=\"bizday_videos_player_subscribe\">\r\n            <div class=\"g-ytsubscribe\" data-channelid=\"UCq5FcFOCydTmbeYD60qiEsw\" data-layout=\"full\" data-theme=\"dark\" data-count=\"hidden\"></div>\r\n        </div>\r\n    </div>\r\n    <h2 class=\"bizday_videos_secondary_title\">Select a Video</h2>\r\n    <div class=\"bizday_videos_items\">\r\n"
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"videos") : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":8},"end":{"line":20,"column":17}}})) != null ? stack1 : "")
     + "    </div>\r\n</section>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -861,13 +861,13 @@ Handlebars.registerPartial("video_player", Handlebars.template({"1":function(con
     };
 
   return "        <a class=\"bizday_videos_item col-lg-2 col-md-3 col-sm-1\" href=\""
-    + alias4(((helper = (helper = lookupProperty(helpers,"url_video") || (depth0 != null ? lookupProperty(depth0,"url_video") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url_video","hash":{},"data":data,"loc":{"start":{"line":10,"column":71},"end":{"line":10,"column":84}}}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"url_video") || (depth0 != null ? lookupProperty(depth0,"url_video") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url_video","hash":{},"data":data,"loc":{"start":{"line":13,"column":71},"end":{"line":13,"column":84}}}) : helper)))
     + "\" target=\"video_player_viewer\">\r\n            <img class=\"bizday_videos_item_title\" src=\""
-    + alias4(((helper = (helper = lookupProperty(helpers,"url_image") || (depth0 != null ? lookupProperty(depth0,"url_image") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url_image","hash":{},"data":data,"loc":{"start":{"line":11,"column":55},"end":{"line":11,"column":68}}}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"url_image") || (depth0 != null ? lookupProperty(depth0,"url_image") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url_image","hash":{},"data":data,"loc":{"start":{"line":14,"column":55},"end":{"line":14,"column":68}}}) : helper)))
     + "\" alt=\"\">\r\n            <p class=\"bizday_videos_item_title\">"
-    + alias4(((helper = (helper = lookupProperty(helpers,"title") || (depth0 != null ? lookupProperty(depth0,"title") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data,"loc":{"start":{"line":12,"column":48},"end":{"line":12,"column":57}}}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"title") || (depth0 != null ? lookupProperty(depth0,"title") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data,"loc":{"start":{"line":15,"column":48},"end":{"line":15,"column":57}}}) : helper)))
     + "</p>\r\n"
-    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"is_interview") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":12},"end":{"line":15,"column":19}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"is_interview") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":16,"column":12},"end":{"line":18,"column":19}}})) != null ? stack1 : "")
     + "        </a>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -878,7 +878,7 @@ Handlebars.registerPartial("video_player", Handlebars.template({"1":function(con
     };
 
   return "            <p class=\"bizday_videos_item_interviewer\">Interviewed by "
-    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"interviewer") || (depth0 != null ? lookupProperty(depth0,"interviewer") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"interviewer","hash":{},"data":data,"loc":{"start":{"line":14,"column":69},"end":{"line":14,"column":84}}}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"interviewer") || (depth0 != null ? lookupProperty(depth0,"interviewer") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"interviewer","hash":{},"data":data,"loc":{"start":{"line":17,"column":69},"end":{"line":17,"column":84}}}) : helper)))
     + "</p>\r\n";
 },"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -888,5 +888,5 @@ Handlebars.registerPartial("video_player", Handlebars.template({"1":function(con
         return undefined
     };
 
-  return ((stack1 = lookupProperty(helpers,"with").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"video") : depth0),{"name":"with","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":20,"column":9}}})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"with").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"video") : depth0),{"name":"with","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":23,"column":9}}})) != null ? stack1 : "");
 },"useData":true}));
